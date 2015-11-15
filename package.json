@@ -1,0 +1,10 @@
+{
+  "name": "fox",
+  "version": "1.0.0",
+  "description": "site de presentation ",
+  "main": "server.js",
+  "dependencies": {
+  "express": "~4.9.1"
+    
+  }
+}
