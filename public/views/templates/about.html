@@ -1,0 +1,21 @@
+<h2>{{about.titre}}</h2>
+<br><br>
+
+<!------------------ INFORMATIONS TECHNOLOGIES UTILISEES POUR LE SITE WEB -------------------->
+
+<p>{{about.technologies}}</p>
+
+<table class="table table-hover">
+
+<tr ng-repeat="item in about.deploiement">
+<td>{{item.nom}}</td><td>{{item.element}}</td>
+</tr>
+
+<tr ng-repeat="item in about.frontend">
+<td>{{item.nom}}</td><td><ul class="list-inline" ng-repeat="items in item.element"><li>{{items}}</li></ul></td>
+</tr>
+
+<tr ng-repeat="item in about.backend">
+<td>{{item.nom}}</td><td><ul class="list-inline" ng-repeat="items in item.element"><li>{{items}}</li></ul></td>
+</tr>
+</table>

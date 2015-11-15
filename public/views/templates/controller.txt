@@ -1,0 +1,16 @@
+// controller pour la page competences
+/*.controller('skillsCtrl', function(){
+  var t = this;
+  t.os = [
+  {Windows : [{ name : "WINDOWS 7"},{name : "WINDOWS 8" }]}, 
+  {Linux : [{name : "MINT"},{name : "DEBIAN"},{name : "UBUNTU"},{name : "XUBUNTU"},{name : "FEDORA"}]}
+  ];
+  
+  t.langages = [
+  {backend :[{name : "NODEJS"},{name: "RUBY ON RAILS"},{name: "PHP"}]},
+  {frontend : [{name : "HTML5"},{name : "CSS3"}, {name: "BOOTSTRAP3"},{name : "JAVASCRIPT"}, {name : "ANGULARJS"}]},
+  {BDD: [{name : "MYSQL"},{name: "MONGODB"},{name: "SQLITE3"}]}
+  ];
+  
+});
+

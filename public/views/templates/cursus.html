@@ -1,0 +1,70 @@
+<h2>{{cursus.titre}}</h2>
+<br><br>
+
+<!--------- INFORMATIONS GENERALES AGE COORDONNEES NIVEAU --------------->
+
+<table class="table table-striped table-condensed table-hover">
+  <caption>{{cursus.infos}}</caption>
+  
+<tr ng-repeat="item in cursus.surnom">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.age">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.telephone">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.mail">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.niveau">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+</table>
+<br>
+<!------------- INFORMATIONS EXPERIENCES ----------->
+
+
+<table class="table table-striped table-condensed table-hover">
+  <caption>{{cursus.experiences}}</caption>
+  
+<tr ng-repeat="item in cursus.experience2015">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.experience2014">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+</table>
+
+<br>
+<!-------------- INFORMATIONS FORMATIONS ----------->
+
+<table class="table table-striped table-condensed table-hover">
+  <caption>{{cursus.formations}}</caption>
+  
+<tr ng-repeat="item in cursus.formation2014">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+<tr ng-repeat="item in cursus.formation2013">
+<td><em>{{item.infos}}</em></td>
+<td>{{item.reponse}}</td>
+</tr>
+
+</table>

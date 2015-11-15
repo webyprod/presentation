@@ -1,0 +1,56 @@
+<h2>{{skills.titre}}</h2>
+<br><br>
+
+
+
+
+<table class="table table-striped table-condensed table-hover">
+<caption>{{skills.caption}}</caption>
+<tbody>
+
+<!---------------------- INFORMATIONS COMPETENCES SYSTEMES D'EXPLOITATIONS------------------------>
+
+
+<tr ng-repeat='sys in skills.os'>
+
+<td>{{sys.element}}</td>
+<td><ul class="list-inline" ng-repeat="datas in sys.items"><li>{{datas}}</li></td>
+
+</tr>
+
+
+<!---------------------- INFORMATIONS COMPETENCES WEB LANGAGES FRONT-END BACK-END ------------------------>
+
+
+<tr ng-repeat='lang in skills.langages'>
+
+<td>{{lang.element}}</td>
+<td><ul class="list-inline" ng-repeat="datas in lang.items"><li>{{datas}}</li></td>
+
+</tr>
+
+
+<!---------------------- INFORMATIONS COMPETENCES WEB BASES DE DONNEES ------------------------>
+
+
+<tr ng-repeat='db in skills.bdd'>
+
+<td>{{db.element}}</td>
+<td><ul class="list-inline" ng-repeat="datas in db.items"><li>{{datas}}</li></td>
+
+</tr>
+
+
+<!---------------------- INFORMATIONS COMPETENCES OUTILS UTILISES ------------------------>
+
+
+<tr ng-repeat='work in skills.outils'>
+
+<td>{{work.element}}</td>
+<td><ul class="list-inline" ng-repeat="datas in work.items"><li>{{datas}}</li></td>
+
+</tr>
+
+
+</tbody>
+</table>
