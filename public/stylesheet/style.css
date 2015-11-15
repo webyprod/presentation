@@ -1,0 +1,45 @@
+body{
+  padding-bottom:50px;
+}
+    
+h2{
+  text-decoration: underline;
+  font-weight:bold;
+  font-size:15px;
+  text-align:center;
+  color: blue;
+}
+    
+p{
+  text-align:justify;
+}	
+    
+nav{
+  border-radius:0px;
+}
+    
+.nav li a{
+  color:blue;
+  font-family:"courier new";
+  font-size:21px;
+  font-weight:bold;
+}
+
+caption{
+ font-style:italic; 
+}
+
+td{
+  padding:40px;
+}
+  
+table 
+{
+  border:0px black solid;
+  border-radius:2px;
+}
+
+em{
+  font-weight:bold;
+  color: grey;
+}
