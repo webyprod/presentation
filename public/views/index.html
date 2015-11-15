@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-------------------------------------------- HEAD ------------------------------------------->
+
+  <meta charset="utf-8">
+  <title>Bienvenue chez FOX</title>
+  <!-------------------------- Chemin de base pour le routage angular ------->
+  <base href="/">
+  
+  <!------------------------- Fichiers CSS --------------------------->
+   <link rel="stylesheet" href="stylesheet/style.css" />
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+   
+   
+   <!------------------------- Fichiers JAVASCRIPT -------------------->
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+   
+   <!------------------------- Applications principales Angular ------->
+   <script src="js/app.js"></script>
+   <script src="js/routes.js"></script>
+   
+   <!------------------------- Controllers Angular -------------------->
+   <script src="js/controllers/homeController.js"></script>
+   <script src="js/controllers/aboutController.js"></script>
+   <script src="js/controllers/contactController.js"></script>
+   <script src="js/controllers/loisirController.js"></script>
+   <script src="js/controllers/cursusController.js"></script>
+   <script src="js/controllers/skillsController.js"></script>
+   
+<!------------------------------------------- FIN HEAD ------------------------------------------->
+</head>
+
+
+<body ng-app="presentApp">
+<!------------------------------------------- DEBUT BODY INIT ANGULAR ---------------------------->
+
+<header>
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+<div class="container-fluid">
+  <ul class="nav navbar-nav">
+   <li><a href="/" style="color:blue;">Home</a></li>
+   <li><a href="/loisirs">Loisirs</a></li>
+   <li><a href="/cursus">Cursus</a></li>
+   <li><a href="/skills">Competences</a></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+  <li><a href="/about">A propos</a></li>
+  <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
+</nav>
+</header>
+
+<main>
+<div class="jumbotron">
+  <div class="container">
+  <div ng-view>
+  
+  <!--------------------------- TEMPLATES ---------------------------->
+  
+  </div>
+  </div>
+  </div>
+</main>
+
+<!---------------------------------------- FIN BODY ------------------------------------------------->
+</body>
+</html>
