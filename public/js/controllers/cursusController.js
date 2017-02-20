@@ -44,8 +44,8 @@ app
   
   t.formations = "FORMATIONS";
   
-  t.formation2014 = [
-    {infos: 'formation - 2014', reponse : 'MASTER COMMERCE ELECTRONIQUE'}    
+  t.formation2015 = [
+    {infos: 'formation - 2015', reponse : 'MASTER COMMERCE ELECTRONIQUE'}    
   ];
   
   t.formation2013 = [
